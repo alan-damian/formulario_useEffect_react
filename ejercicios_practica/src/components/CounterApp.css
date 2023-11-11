@@ -1,0 +1,14 @@
+#fondo {
+    background: url("../components/fondo.png");
+}
+
+#titulo_app {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: rgb(30, 138, 104);
+}
+
+#contador {
+    color: #000;
+    height: 60px;
+}

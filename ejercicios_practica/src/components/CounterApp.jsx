@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import './CounterApp.css'
 
 const CounterApp = ()=> {
     const  [counter, setCounter] = useState(0); 
@@ -13,13 +14,13 @@ const CounterApp = ()=> {
         return () => {clearInterval(interval);};
     }, []);
     return (
-        <div>
+        <div id="fondo">
         
-            <h1>
+            <h1 id="titulo_app">
                 Counter App
             </h1>
 
-            <p>Counter: {counter}</p>
+            <p id="contador">Counter: {counter}</p>
 
         </div>
     )
